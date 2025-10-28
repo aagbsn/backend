@@ -1,5 +1,8 @@
 name: test ooniapi/oonimeasurements
-on: push
+on:
+  push:
+  workflow_dispatch:
+
 jobs:
   run_tests:
     runs-on: ubuntu-latest

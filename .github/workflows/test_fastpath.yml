@@ -3,6 +3,7 @@ on:
   push:
     paths:
       - 'fastpath/**'
+  workflow_dispatch:
 
 jobs:
   test:
